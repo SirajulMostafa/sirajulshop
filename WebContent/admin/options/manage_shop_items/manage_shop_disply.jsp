@@ -33,12 +33,13 @@
 				</caption>
 				<thead>
 					<tr>
+					<th>ID NO:</th>
 						<th>Item Title</th>
-						
 						<th>Our Price</th>
 						<th>Was Price</th>
 						<th>Description</th>
 						<th>Picture</th>
+						<th>Action</th>
 
 					</tr>
 				</thead>
@@ -51,6 +52,9 @@
 							<td>${row.was_price}</td>
 							<td>${row.item_description}</td>
 							<td>${row.small_pic}</td>
+							<td> <a href="index.jsp?shopItem=edit&id=${row.id}">Edit</a></td>
+							<td> <a href="index.jsp?shopItem=delete&id=${row.id}">Delete</a></td>
+							
 
 						</tr>
 					</c:forEach>

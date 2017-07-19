@@ -1,5 +1,5 @@
 
-
+<section class="content">
 <form action="options/manage_categories/categoryInsert.jsp" method="post">
 
 	<sql:query dataSource="${db}" var="rs"> SELECT * from shop_categories WHERE category_parent=0 ;  </sql:query>
@@ -46,4 +46,4 @@
 	</c:if>
 	
 </form>
-
+</section>
