@@ -11,6 +11,7 @@
 	<tbody>
 		<c:forEach var="row" items="${rs.rows}">
 			<tr>
+			
 				<td>${row.id}</td>
 				<td>${row.cat_title}</td>
 			</tr>
