@@ -26,7 +26,8 @@
 		<div class="box-body">
 			<!-- /.box-body -->
 			<div class="btn-group">
-				<a href="#"><button type="button" class="btn btn-warning">UploadImage</button></a> 
+			<% String imgId= request.getParameter("id"); %>
+				<a href="index.jsp?shopItem=edit&imgID=<%=imgId %>"><button type="button" class="btn btn-warning">UploadImage</button></a> 
 						<a href="#"><button type="button"
 						class="btn btn-success">Assign Category</button></a> <a href="#"><button
 						type="button" class="btn btn-info">Add Color</button></a> <a href="#"><button

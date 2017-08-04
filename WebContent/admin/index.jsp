@@ -291,6 +291,12 @@
 							
 							<%@ include file="options/manage_shop_items/edit_shop_items.jsp"%>
 						</c:if>
+						<c:if
+						
+							test="${param.shopItem=='edit' and param.imgID!=null}">
+							
+							<%@ include file="imageupload.jsp"%>
+						</c:if>
 						
 						<!-- index.jsp?add=shop_items_add-->
 						<c:if
@@ -299,6 +305,13 @@
 							
 							<%@ include file="options/manage_shop_items/Add_shop_items.jsp"%>
 						</c:if>
+						<c:if
+						
+							test="${param.add=='shop_items_add_test'}">
+							
+							<%@ include file="options/manage_shop_items/Add_shop_items.jsp"%>
+						</c:if>
+						
 						
 						<!-- /start Shop Items Manage -->
 						 <c:if test="${ param.susMsg=='successfully'}">

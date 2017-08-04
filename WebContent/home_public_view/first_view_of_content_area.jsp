@@ -1,17 +1,17 @@
 <h>hello content area</h>
-
-
 <div class="container">
     <div class="row">
       <ul class="thumbnails list-unstyled">
+      <sql:query dataSource="${db}" var="rs2"> SELECT * FROM products  </sql:query>
+      <c:forEach var="rows2" items="${rs2.rows}">
         <li class="col-md-3 ">
           <div class="thumbnail" style="padding: 0">
             <div style="padding:4px">
-              <img alt="300x200" style="width: 100%" src="http://placehold.it/200x150">
+              <img alt="300x200" style="width: 100%" src="${rows2.was_price}">
             </div>
             <div class="caption">
-              <h2>Project A</h2>
-              <p>My project description</p>
+              <h2>Brand Name ${rows2.small_picture} </h2>
+              <p>${rows2.title}</p>
               <p><i class="icon icon-map-marker"></i> Place, Country</p>
             </div>
             <div class="modal-footer" style="text-align: left">
@@ -28,6 +28,7 @@
             </div>
           </div>
         </li>
+        </c:forEach>
         
         
         
