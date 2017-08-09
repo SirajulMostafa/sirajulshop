@@ -1,0 +1,113 @@
+<!-- BANNER -->
+		<div class="bannercontainer bannerV1">
+			<div class="fullscreenbanner-container">
+				<div class="fullscreenbanner">
+					<ul>
+						<li data-transition="slidehorizontal" data-slotamount="5"
+							data-masterspeed="700" data-title="Slide 1"><img
+							src="Theme/img/home/banner-slider/slider-bg.jpg" alt="slidebg1"
+							data-bgfit="cover" data-bgposition="center center"
+							data-bgrepeat="no-repeat">
+							<div class="slider-caption slider-captionV1 container">
+
+								<div class="tp-caption rs-caption-1 sft start" data-hoffset="0"
+									data-x="370" data-y="54" data-speed="800" data-start="1500"
+									data-easing="Back.easeInOut" data-endspeed="300">
+									<img src="Theme/img/home/banner-slider/shoe1.png"
+										alt="slider-image" style="width: 781px; height: 416px;">
+								</div>
+
+								<div class="tp-caption rs-caption-2 sft" data-hoffset="0"
+									data-y="119" data-speed="800" data-start="2000"
+									data-easing="Back.easeInOut" data-endspeed="300">Canvas
+									Sneaker</div>
+
+								<div class="tp-caption rs-caption-3 sft" data-hoffset="0"
+									data-y="185" data-speed="1000" data-start="3000"
+									data-easing="Power4.easeOut" data-endspeed="300"
+									data-endeasing="Power1.easeIn" data-captionhidden="off">
+									Exclusive to <br> E-SHOP <br> <small>Spring /
+										Summer 2016</small>
+								</div>
+								<div class="tp-caption rs-caption-4 sft" data-hoffset="0"
+									data-y="320" data-speed="800" data-start="3500"
+									data-easing="Power4.easeOut" data-endspeed="300"
+									data-endeasing="Power1.easeIn" data-captionhidden="off">
+									<span class="page-scroll"><a href="#"
+										class="btn primary-btn">Buy Now<i
+											class="glyphicon glyphicon-chevron-right"></i></a></span>
+								</div>
+							</div></li>
+						<li data-transition="slidehorizontal" data-slotamount="5"
+							data-masterspeed="1000" data-title="Slide 2"><img
+							src="Theme/img/home/banner-slider/slider-bg.jpg" alt="slidebg"
+							data-bgfit="cover" data-bgposition="center center"
+							data-bgrepeat="no-repeat">
+							<div
+								class="slider-caption slider-captionV1 container captionCenter">
+								<div class="tp-caption rs-caption-1 sft start text-center"
+									data-x="center" data-y="228" data-speed="800" data-start="1500"
+									data-easing="Back.easeInOut" data-endspeed="300">
+									<img src="Theme/img/home/banner-slider/shoe2.png"
+										alt="slider-image">
+								</div>
+
+								<div class="tp-caption rs-caption-2 sft text-center"
+									data-x="center" data-y="50" data-speed="800" data-start="2000"
+									data-easing="Back.easeInOut" data-endspeed="300">
+									Exclusive to E-SHOP</div>
+
+								<div class="tp-caption rs-caption-3 sft text-center"
+									data-x="center" data-y="98" data-speed="1000" data-start="3000"
+									data-easing="Power4.easeOut" data-endspeed="300"
+									data-endeasing="Power1.easeIn" data-captionhidden="off">
+									Canvas Sneaker</div>
+
+								<div class="tp-caption rs-caption-4 sft text-center"
+									data-x="center" data-y="156" data-speed="800" data-start="3500"
+									data-easing="Power4.easeOut" data-endspeed="300"
+									data-endeasing="Power1.easeIn" data-captionhidden="off">
+									<span class="page-scroll"><a href="#"
+										class="btn primary-btn">Buy Now<i
+											class="glyphicon glyphicon-chevron-right"></i></a></span>
+								</div>
+							</div></li>
+						<li data-transition="slidehorizontal" data-slotamount="5"
+							data-masterspeed="700" data-title="Slide 3"><img
+							src="Theme/img/home/banner-slider/slider-bg.jpg" alt="slidebg"
+							data-bgfit="cover" data-bgposition="center center"
+							data-bgrepeat="no-repeat">
+							<div class="slider-caption slider-captionV1 container">
+								<div class="tp-caption rs-caption-1 sft start" data-hoffset="0"
+									data-y="85" data-speed="800" data-start="1500"
+									data-easing="Back.easeInOut" data-endspeed="300">
+									<img src="Theme/img/home/banner-slider/shoe3.png"
+										alt="slider-image">
+								</div>
+
+								<div class="tp-caption rs-caption-2 sft " data-hoffset="0"
+									data-y="119" data-x="800" data-speed="800" data-start="2000"
+									data-easing="Back.easeInOut" data-endspeed="300">Canvas
+									Sneaker</div>
+
+								<div class="tp-caption rs-caption-3 sft" data-hoffset="0"
+									data-y="185" data-x="800" data-speed="1000" data-start="3000"
+									data-easing="Power4.easeOut" data-endspeed="300"
+									data-endeasing="Power1.easeIn" data-captionhidden="off">
+									Exclusive to <br> E-SHOP <br> <small>Spring /
+										Summer 2016</small>
+								</div>
+
+								<div class="tp-caption rs-caption-4 sft" data-hoffset="0"
+									data-y="320" data-x="800" data-speed="800" data-start="3500"
+									data-easing="Power4.easeOut" data-endspeed="300"
+									data-endeasing="Power1.easeIn" data-captionhidden="off">
+									<span class="page-scroll"><a href="#"
+										class="btn primary-btn">Buy Now<i
+											class="glyphicon glyphicon-chevron-right"></i></a></span>
+								</div>
+							</div></li>
+					</ul>
+				</div>
+			</div>
+		</div>
