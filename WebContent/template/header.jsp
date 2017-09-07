@@ -1,5 +1,9 @@
 <%@ include file="../common/jstltag.jsp" %>
  <%@ include file="../core/conndb.jsp" %>
+ <%@ page import="java.io.*,java.util.*,java.sql.*"%>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"  %>
+<%@ page import="javax.servlet.http.*,javax.servlet.*" %>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/sql" prefix="sql" %>  
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
     pageEncoding="ISO-8859-1"%>
 <!DOCTYPE html>
@@ -11,7 +15,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>BIGBAG Store - Ecommerce Bootstrap Template</title>
+    <title>E-shop Store - Ecommerce Bootstrap Template</title>
 
     <!-- PLUGINS CSS STYLE -->
     <link href="Theme/plugins/jquery-ui/jquery-ui.css" rel="stylesheet">

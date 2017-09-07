@@ -1,6 +1,5 @@
 <%@ include file="/common/jstltag.jsp"%>
 <%@ include file="/core/conndb.jsp"%>
-
      <sql:update dataSource="${db}" var="count">
             UPDATE products SET title =?, item_price=? ,was_price=? ,item_description=?,status=?
             WHERE id='${param.product_id}' ;
@@ -10,6 +9,7 @@
             <sql:param value="${param.item_description}" />
             <sql:param value="${param.status}" />
         </sql:update>
+       
         <c:if test="${count>=1}">
             <font size="5" color='green'> Congratulations ! product Data update  Data updated
             successfully.</font>

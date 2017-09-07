@@ -25,8 +25,7 @@
 
 		<div class="box-body">
 
-			<sql:query dataSource="${db}" var="rs"> SELECT * from products  ; </sql:query>
-
+		
 			<table id="example2" class="table table-bordered table-hover ">
 				<caption  style="color: rgba(18, 134, 181, 1)">
 					<h4 class="box-title text-center">Manage Shop Item</h4>
@@ -44,6 +43,8 @@
 					</tr>
 				</thead>
 				<tbody>
+					<sql:query dataSource="${db}" var="rs"> SELECT * from products  ; </sql:query>
+				
 					<c:forEach var="row" items="${rs.rows}">
 						<tr>
 							<td>${row.id}</td>
@@ -51,7 +52,10 @@
 							<td>${row.item_price}</td>
 							<td>${row.was_price}</td>
 							<td>${row.item_description}</td>
-							<td>${row.small_pic}</td>
+							<td>
+							<c:set var="imgPath" value="${pageContext.request.contextPath}/Theme/img/products/${row.small_picture}"/>
+							 <img style="width:100px;height:100px" src="<c:out value="${imgPath}"/>">
+							 </td>
 							<td> <a href="index.jsp?shopItem=edit&id=${row.id}">Edit</a></td>
 							<td> <a href="index.jsp?shopItem=delete&id=${row.id}">Delete</a></td>
 							
@@ -59,7 +63,6 @@
 						</tr>
 					</c:forEach>
 					
-
 				</tbody>
 				<tfoot>
 					<tr>

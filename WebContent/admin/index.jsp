@@ -200,7 +200,7 @@
 							class="fa fa-dashboard"></i> <span>Category</span> <i
 							class="fa fa-angle-left pull-right"></i></a>
 						<ul class="treeview-menu">
-							
+
 							<li><a href="index.jsp?manage_cat=manage_cat"><i
 									class="fa fa-circle-o text-green"></i> Manage Category</a></li>
 
@@ -209,38 +209,37 @@
 
 							<li><a href="index.jsp?edit=category&id=1"><i
 									class="fa fa-circle-o"></i> Edit Category</a></li>
-						</ul>
-						</li>
-						
+						</ul></li>
+
 					<!-- shop_item_mange -->
-					
+
 					<li class="treeview"><a href="#"> <i
 							class="fa fa-suitcase"></i> <span>Manage Shop Items</span> <i
 							class="fa fa-angle-left pull-right"></i>
 					</a>
 						<ul class="treeview-menu">
-							<li>
-							<a href="index.jsp?manage_shop_items=shop_items"><i
+							<li><a href="index.jsp?manage_shop_items=shop_items"><i
 									class="fa fa-circle-o text-green"></i>Manage</a></li>
-									<li><a href="index.jsp?manage_shop_items=shop_items"><i
+							<li><a href="index.jsp?manage_shop_items=shop_items"><i
 									class="fa fa-circle-o text-green"></i>Add Shop Item</a></li>
-									<li><a href="index.jsp?manage_shop_items=shop_items"><i
+							<li><a href="index.jsp?manage_shop_items=shop_items"><i
 									class="fa fa-circle-o text-green"></i>Manage</a></li>
-						
+						</ul></li>
 
-						</ul>
-						</li>
-						
-						<li>
-						    <a href="../mailbox/mailbox.html"> <i
+					<li><a href="index.jsp?manage_shop_brand=shop_brand"> <i
+							class="fa fa-envelope"></i> <span>Brand</span> <small
+							class="label pull-right bg-yellow">12</small>
+					</a></li>
+
+
+					<li><a href="../mailbox/mailbox.html"> <i
 							class="fa fa-envelope"></i> <span>Mailbox</span> <small
 							class="label pull-right bg-yellow">12</small>
-					        </a>
-				     	</li>
-					
-					
+					</a></li>
+
+
 					<!-- /shop_item_mange -->
-					
+
 				</ul>
 			</section>
 			<!-- /.sidebar -->
@@ -256,73 +255,72 @@
 
 			</section>
 			<!-- start here page login yahoo ! -->
-						<c:if
-							test="${(param.add=='add_category') or (param.edit=='category' and param.id!=null)}">
-							
-							<%@ include file="options/manage_categories/add_categories.jsp"%>
+			<c:if
+				test="${(param.add=='add_category') or (param.edit=='category' and param.id!=null)}">
 
-						</c:if>
-						<c:if test="${param.manage_cat=='manage_cat'}">
-							
-							<%@ include file="options/manage_categories/index.jsp"%>
-						</c:if>
+				<%@ include file="options/manage_categories/add_categories.jsp"%>
 
-						<c:if
-							test="${param.view_categories=='categories' and param.id!=null}">
-							
-							<%@ include file="options/manage_categories/view_all_sub_cat.jsp"%>
-						</c:if>
-						
-						<!-- start Shop Items Manage -->
-						
-						 <!-- index.jsp?manage_shop_items=shop_items -->
-						<c:if
-							test="${param.manage_shop_items=='shop_items'}">
-							
-							<%@ include file="options/manage_shop_items/manage_shop_disply.jsp"%>
-						</c:if>
-						 
-						 <!-- index.jsp?shopItem=edit&id=1
-						 "WebContent/admin/options/manage_shop_items/edit_shop_items.jsp"
-						 -->
-						<c:if
-						
-							test="${param.shopItem=='edit' and param.id!=null}">
-							
-							<%@ include file="options/manage_shop_items/edit_shop_items.jsp"%>
-						</c:if>
-						<c:if
-						
-							test="${param.shopItem=='edit' and param.imgID!=null}">
-							
-							<%@ include file="imageupload.jsp"%>
-						</c:if>
-						
-						<!-- index.jsp?add=shop_items_add-->
-						<c:if
-						
-							test="${param.add=='shop_items_add'}">
-							
-							<%@ include file="options/manage_shop_items/Add_shop_items.jsp"%>
-						</c:if>
-						<c:if
-						
-							test="${param.add=='shop_items_add_test'}">
-							
-							<%@ include file="options/manage_shop_items/Add_shop_items.jsp"%>
-						</c:if>
-						
-						
-						<!-- /start Shop Items Manage -->
-						 <c:if test="${ param.susMsg=='successfully'}">
-						 <% 
-						 String success ;
-						 success ="<font size='5' color='green'>";
-						 success +=" Congratulations ! Data inserted successfully.</font>";
-						 out.print(success);
-						 %>
-						 
-                     </c:if>
+			</c:if>
+			<c:if test="${param.manage_cat=='manage_cat'}">
+
+				<%@ include file="options/manage_categories/index.jsp"%>
+			</c:if>
+
+			<c:if
+				test="${param.view_categories=='categories' and param.id!=null}">
+
+				<%@ include file="options/manage_categories/view_all_sub_cat.jsp"%>
+			</c:if>
+
+			<!-- start Shop Items Manage -->
+
+			<!-- index.jsp?manage_shop_items=shop_items -->
+			<c:if test="${param.manage_shop_items=='shop_items'}">
+
+				<%@ include file="options/manage_shop_items/manage_shop_disply.jsp"%>
+			</c:if>
+
+			<!-- index.jsp?shopItem=edit&id=1
+"WebContent/admin/options/manage_shop_items/edit_shop_items.jsp"
+-->
+			<c:if test="${param.shopItem=='edit' and param.id!=null}">
+
+				<%@ include file="options/manage_shop_items/edit_shop_items.jsp"%>
+			</c:if>
+			<c:if test="${param.shopItem=='edit' and param.imgID!=null}">
+
+				<%@ include file="imageupload.jsp"%>
+			</c:if>
+			<!-- brand  -->
+			<!-- manage_shop_brand=shop_brand -->
+			<c:if test="${param.manage_shop_brand=='shop_brand' }">
+
+				<%@ include file="options/brand/brandview.jsp"%>
+			</c:if>
+
+			<!-- brand  -->
+
+			<!-- index.jsp?add=shop_items_add-->
+			<c:if test="${param.add=='shop_items_add'}">
+
+				<%@ include file="options/manage_shop_items/Add_shop_items.jsp"%>
+			</c:if>
+			<c:if test="${param.add=='shop_items_add_test'}">
+
+				<%@ include file="options/manage_shop_items/Add_shop_items.jsp"%>
+			</c:if>
+
+
+			<!-- /start Shop Items Manage -->
+			<c:if test="${ param.susMsg=='successfully'}">
+				<%
+					String success;
+						success = "<font size='5' color='green'>";
+						success += " Congratulations ! Data inserted successfully.</font>";
+						out.print(success);
+				%>
+
+			</c:if>
 		</div>
 		<!-- /.content-wrapper -->
 		<footer class="main-footer">
@@ -487,7 +485,7 @@
 		</aside>
 		<!-- /.control-sidebar -->
 		<!-- Add the sidebar's background. This div must be placed
-           immediately after the control sidebar -->
+       immediately after the control sidebar -->
 		<div class="control-sidebar-bg"></div>
 	</div>
 	<!-- ./wrapper -->
@@ -516,31 +514,31 @@
 	<!-- Sirajul's Shoop for demo purposes -->
 	<script type="text/javascript" src="../adminLTE/js/demo.js"></script>
 	<!-- Sirajul's for showing 10 of 12  etc -->
-	 <!-- CK Editor -->
-    <script src="https://cdn.ckeditor.com/4.4.3/standard/ckeditor.js"></script>
-	
-<script>
-      $(function () {
-        // Replace the <textarea id="editor1"> with a CKEditor
-        // instance, using default configuration.
-        CKEDITOR.replace('editor1');
-        //bootstrap WYSIHTML5 - text editor
-        //$(".textarea").wysihtml5();
-      });
-    </script>
+	<!-- CK Editor -->
+	<script src="https://cdn.ckeditor.com/4.4.3/standard/ckeditor.js"></script>
+
+	<script>
+$(function () {
+  // Replace the <textarea id="editor1"> with a CKEditor
+  // instance, using default configuration.
+  CKEDITOR.replace('editor1');
+  //bootstrap WYSIHTML5 - text editor
+  //$(".textarea").wysihtml5();
+});
+</script>
 	<script type="text/javascript">
-      $(function () {
-        
-        $('#example2').DataTable({
-          "paging": true,
-          "lengthChange": false,
-          "searching": false,
-          "ordering": true,
-          "info": true,
-          "autoWidth": false
-        });
-      });
-    </script>
+$(function () {
+  
+  $('#example2').DataTable({
+    "paging": true,
+    "lengthChange": false,
+    "searching": false,
+    "ordering": true,
+    "info": true,
+    "autoWidth": false
+  });
+});
+</script>
 
 </body>
 </html>
