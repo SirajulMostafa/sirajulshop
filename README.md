@@ -1,6 +1,11 @@
+
+- ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) `#f03c15`
+- ![#c5f015](https://placehold.it/15/c5f015/000000?text=+) `#c5f015`
+- ![#1589F0](https://placehold.it/15/1589F0/000000?text=+) `#1589F0`
+
 #  e-commerce website with custom-CMS  using jsp, jstl, servlet, MySqli,apache tomcat ,Bootstrap3 
 
-# <span style="color: green">Home page 1</span>
+# + Home page 1
 ![2017-09-21 3](https://user-images.githubusercontent.com/14887259/30691630-2c62d8e4-9eea-11e7-8a61-405e34757be0.png)
 
 
