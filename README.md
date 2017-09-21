@@ -1,10 +1,10 @@
 #  e-commerce website with custom-CMS  using jsp, jstl, servlet, MySqli,apache tomcat ,Bootstrap3 
 
-# Home page 1
+# <span style="color: green">Home page 1</span>
 ![2017-09-21 3](https://user-images.githubusercontent.com/14887259/30691630-2c62d8e4-9eea-11e7-8a61-405e34757be0.png)
 
 
-#  Home page 2
+#   Home page 2
 
 ![2017-09-21 4](https://user-images.githubusercontent.com/14887259/30691631-2c658eae-9eea-11e7-9dc2-f6a29a16e986.png)
 
@@ -47,7 +47,4 @@
 
 ![2017-09-21 20](https://user-images.githubusercontent.com/14887259/30691647-2ce82152-9eea-11e7-808d-7db5919494a6.png)
 
-# Home Page 
-
-![2017-09-21](https://user-images.githubusercontent.com/14887259/30691648-2cf1c5fe-9eea-11e7-8b41-3a9619a83a1d.png)
 
