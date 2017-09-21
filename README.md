@@ -5,11 +5,11 @@
 
 #  e-commerce website with custom-CMS  using jsp, jstl, servlet, MySqli,apache tomcat ,Bootstrap3 
 
-# ``` +diff Home page 1 ```
+# ```  Home page 1 ```
 ![2017-09-21 3](https://user-images.githubusercontent.com/14887259/30691630-2c62d8e4-9eea-11e7-8a61-405e34757be0.png)
 
 
-#   Home page 2
+#  + Home page 2 +
 
 ![2017-09-21 4](https://user-images.githubusercontent.com/14887259/30691631-2c658eae-9eea-11e7-9dc2-f6a29a16e986.png)
 
