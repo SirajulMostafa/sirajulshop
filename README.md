@@ -12,7 +12,8 @@
 ![2017-09-21 12](https://user-images.githubusercontent.com/14887259/30691638-2ca0d89c-9eea-11e7-9b86-e3c033857f99.png)
 ![2017-09-21 13](https://user-images.githubusercontent.com/14887259/30691639-2ca14c00-9eea-11e7-8509-b7e17bae86bd.png)
 ![2017-09-21 14](https://user-images.githubusercontent.com/14887259/30691640-2ca7cc42-9eea-11e7-9fb0-994a9912fe7f.png)
-![2017-09-21 15](https://user-images.githubusercontent.com/14887259/30691641-2cad668e-9eea-11e7-98f1-dc5014ad13d5.png)
+
+
 ![2017-09-21 16](https://user-images.githubusercontent.com/14887259/30691643-2cd31fb4-9eea-11e7-8004-d3625c1d8e6b.png)
 ![2017-09-21 17](https://user-images.githubusercontent.com/14887259/30691644-2cd951a4-9eea-11e7-9d75-cf69c8181731.png)
 ![2017-09-21 18](https://user-images.githubusercontent.com/14887259/30691646-2cdbf9ea-9eea-11e7-8c33-3d2d374f8215.png)
