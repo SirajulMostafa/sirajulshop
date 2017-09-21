@@ -4,7 +4,7 @@
 ![2017-09-21 3](https://user-images.githubusercontent.com/14887259/30691630-2c62d8e4-9eea-11e7-8a61-405e34757be0.png)
 
 
-# # Home page 2
+#  Home page 2
 
 ![2017-09-21 4](https://user-images.githubusercontent.com/14887259/30691631-2c658eae-9eea-11e7-9dc2-f6a29a16e986.png)
 
@@ -26,7 +26,7 @@
 # Blank Page
 ![2017-09-21 11](https://user-images.githubusercontent.com/14887259/30691637-2c9e5d9c-9eea-11e7-97b9-c520fd48ba7b.png)
 
-#Manage Category
+# Manage Category
 ![2017-09-21 12](https://user-images.githubusercontent.com/14887259/30691638-2ca0d89c-9eea-11e7-9b86-e3c033857f99.png)
 
 # Add Category and sub category
@@ -39,7 +39,7 @@
 # Add Brand
 
 ![2017-09-21 16](https://user-images.githubusercontent.com/14887259/30691643-2cd31fb4-9eea-11e7-8004-d3625c1d8e6b.png)
-# 
+
 
 
 # Add New product
